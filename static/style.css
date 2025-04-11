@@ -1,0 +1,35 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #666;
+}
+
+.results {
+    margin-top: 20px;
+    text-align: left;
+}
